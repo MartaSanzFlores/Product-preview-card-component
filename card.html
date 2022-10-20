@@ -3,20 +3,25 @@
     <head>
         <title>Product preview card component</title>
         <meta charset="utf-8">
-        <link style="stylesheet" href="card.css">
+        <link rel="stylesheet" href="card3.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="content">
-            <figure>
-                <img src="images/image-product-desktop.jpg" alt="Grabrielle Essence Eau De Parfum">
+            <figure class="image">
+                <img src="images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum" height="100%">
             </figure>
             <section class="description">
                 <h2>PERFUME</h2>
-                <h1>Grabrielle Essence Eau De Parfum</h1>
-                <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANNEL.</p>
+                <h1>Gabrielle Essence Eau De Parfum</h1>
+                <p class="text">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
                 <p id="price">$149.99</p>
                 <p id="old_price">$169.99</p>
-                <button><img src="images/icon-cart.svg"> Add to Cart</button>
+                <div class="add">
+                    <button><img src="images/icon-cart.svg">&nbsp;&nbsp;&nbsp;Add to Cart</button>
+                </div>
             </section>
         </div>
     </body>
