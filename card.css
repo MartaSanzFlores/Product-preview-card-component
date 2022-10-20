@@ -12,10 +12,10 @@ body{
     min-height: 100%;
     border: 2px solid transparent;
     background-color: hsl(30, 38%, 92%);
+    display: flex;
 }
 
 .content{
-    
     display: flex;
     width: 600px;
     margin: auto;
@@ -46,7 +46,7 @@ h1{
     padding-top: 10px;
 }
 
-p,h2{ 
+p,h2,span{ 
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     font-family: Montserrat;
@@ -84,20 +84,25 @@ button{
     font-size: 14px;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: hsl(157, 35%, 25%);
+}
+
 #price{
     color: hsl(158, 36%, 37%);
     font-family: Fraunces;
     font-weight: 700;
     font-size: 33px;
-    display: inline-flex;
+    
     padding-top: 10px;
     margin-right: 0px;
 }
 
-#old_price{
+span{
     text-decoration: line-through;
-    display: inline-flex;
-    margin: 0px;
     font-size: 13px;
-    justify-content: center;
+    position: absolute;
+    margin-left: -2px;
+    margin-top: 13px;
 }
